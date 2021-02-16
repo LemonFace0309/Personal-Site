@@ -1,0 +1,33 @@
+.header {
+  height: 100vh;
+  width: 100vw;
+  background: #0a192f;
+  text-align: center;
+  color: white;
+}
+
+.banner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.laptop {
+  position: relative;
+  width: 80vw;
+  height: 70vh;
+}
+
+@media (max-width: 480px) {
+  .laptop {
+      width: 100vw;
+      height: 50vh;
+  }
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}

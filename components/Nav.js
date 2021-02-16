@@ -1,8 +1,9 @@
 import Link from 'next/link'
+import styles from '../styles/Nav.module.css'
 
 const Nav = () => {
   return (
-    <nav className="">
+    <nav className={styles.navbar}>
       <ul>
         <li>
           <Link href="/">Home</Link>
@@ -18,7 +19,7 @@ const Nav = () => {
         </li>
         <li>
           <Link href="/">Contact</Link>
-        </li>
+        </li>   
       </ul>
     </nav>
   )
