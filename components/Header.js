@@ -22,7 +22,7 @@ const Header = () => {
         </div>
         <div className={styles.description}>
           <h1>Charles Liu</h1>
-          <p>I like to code.</p>
+          <p className={styles.coding}>I like to code.</p>
         </div>
       </div>
     </div>

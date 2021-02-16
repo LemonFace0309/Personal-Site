@@ -1,0 +1,52 @@
+.container {
+  color: white;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  background-color: #0a192f;
+}
+
+.avatar {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.avatarImage {
+  z-index: 1;
+}
+
+.avatarShadow {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  top: 20px;
+  right: 20px;
+  background-color: #64ffda;
+}
+
+@media (max-width: 726px) {
+  .avatarShadow {
+    display: none;
+  }
+}
+
+.me {
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  padding-left: 50px;
+}
+
+.bio {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.greenText {
+    color: #64ffda;
+}

@@ -1,6 +1,5 @@
 .header {
   height: 100vh;
-  width: 100vw;
   background: #0a192f;
   text-align: center;
   color: white;
@@ -30,4 +29,8 @@
 .description {
   font-size: 1.5rem;
   margin-bottom: 2rem;
+}
+
+.coding {
+  color: #64FFDA;
 }
