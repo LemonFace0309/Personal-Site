@@ -9,7 +9,7 @@ function Projects() {
       <h1>PROJECTS</h1>
       <div className={styles.divider} />
       <div className={styles.content}>
-        <div className={styles.projectOne}>
+        <div className={`${styles.project} ${styles.projectOne}`}>
           <Image src="/images/placeholder.svg" height={400} width={500} />
           <div className={styles.project1Wrapper}>
             <h1>Project Name</h1>
@@ -21,8 +21,8 @@ function Projects() {
             </Button>
           </div>
         </div>
-        <div className={styles.projectTwo}></div>
-        <div className={styles.projectThreeFour}>
+        <div className={`${styles.project} ${styles.projectTwo}`}></div>
+        <div className={`${styles.project} ${styles.projectThreeFour}`}>
           <div className={styles.projectThree}></div>
           <div className={styles.projectFour}></div>
         </div>

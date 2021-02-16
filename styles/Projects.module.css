@@ -32,15 +32,12 @@
   flex-direction: column;
 }
 
-.project1Wrapper {
-    text-align: right;
+.project {
+  display: flex;
 }
 
-.projectOne {
-  flex: 1 1 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.project h1 {
+  color: #64ffda;
 }
 
 .projectDescription {
@@ -48,6 +45,16 @@
   margin: 0;
   padding: 0;
   background-color: indigo;
+}
+
+.projectOne {
+  flex: 1 1 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project1Wrapper {
+  text-align: right;
 }
 
 .projectTwo {
