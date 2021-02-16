@@ -5,7 +5,7 @@ import Header from './Header'
 const Layout = ({ children }) => {
   return (
     <>
-      <Meta />
+      <Meta />  
       <main className="">{children}</main>
     </>
   )
