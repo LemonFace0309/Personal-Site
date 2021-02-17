@@ -9,10 +9,7 @@ function Skills() {
       </div>
       <div className={styles.graphs}>
           <div>
-              <h1>Languages</h1>
-          </div>
-          <div>
-              <h1>Frameworks</h1>
+              <h1>Languages & Frameworks</h1>
           </div>
       </div>
     </div>

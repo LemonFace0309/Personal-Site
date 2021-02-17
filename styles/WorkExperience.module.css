@@ -1,0 +1,20 @@
+.container {
+  background-color: #142e53;
+}
+
+.title {
+  text-align: center;
+  padding: 30px;
+  font-size: 3rem;
+  margin: 0px;
+  color: white;
+}
+
+.divider {
+  width: 5%;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 2px solid white;
+  background: white;    
+  border-radius: 100px;
+}

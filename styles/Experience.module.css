@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  width: 100%;
+  color: white;
+}
+
+.logo {
+  flex: 1 0 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo > .imageWrapper {
+  margin-top: 25px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.body {
+  flex: 5 0 0px;
+  padding-left: 20px;
+}
+
+.header > h1 {
+    margin-top: 20px;
+}
+
+.body > h3 {
+  margin-top: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > h1 {
+  margin-bottom: 0px;
+}
+
+.header > h4 {
+  margin-right: 20px;
+}
