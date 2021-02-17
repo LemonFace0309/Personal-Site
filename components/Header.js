@@ -16,12 +16,12 @@ const Header = () => {
             //   layout="intrinsic"
             layout="fill"
             objectFit="contain"
-            objectPosition="center top"
+            objectPosition="center center"
             quality="100"
           />
         </div>
         <div className={styles.description}>
-          <h1>Charles Liu</h1>
+          <h1>CHARLES LIU</h1>
           <p className={styles.coding}>I like to code.</p>
         </div>
       </div>

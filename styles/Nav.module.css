@@ -3,7 +3,6 @@
   background: inherit;
   color: #fff;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -21,6 +20,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  font-size: 1.2rem;
 }
 
 
