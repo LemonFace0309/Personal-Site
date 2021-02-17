@@ -24,8 +24,9 @@
 
 .graphs {
   flex: 1 1 0px;
-  background: white;
+  background: #CAD0E2;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }

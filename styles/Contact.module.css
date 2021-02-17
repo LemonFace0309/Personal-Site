@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.contact {
+  flex: 1 1 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+
+.email {
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume {
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email > h1,
+.resume > h1 {
+  font-size: 2.5rem;
+}
+
+.buttonText {
+  font-weight: 200;
+  margin: 0px 10px;
+}
+
+.buttonIcon {
+  margin: 0px 10px;
+}
+
+.divider {
+  width: 10%;
+  margin: auto;
+  border: 5px solid white;
+  background: white;
+  border-radius: 100px;
+}
+
+.socialMediaIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 3rem; 
+}
+
+.fancyLine {
+  margin: 0px;
+  padding: 0px;
+  width: 3px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.pitch {
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a192f;
+}
+
+.pitch h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  margin: 0px;
+}
+
+.pitch h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.pitch p {
+  font-size: 1.5rem;
+  padding: 0px 20%;
+}

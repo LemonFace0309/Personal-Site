@@ -1,0 +1,14 @@
+.container {
+  width: 250px;
+  height: 70px;
+  border-radius: 10% 10% 10% 10% / 25% 25% 25% 25%;
+  background: #0a192f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container:hover {
+  cursor: pointer;
+  background: black;
+}
