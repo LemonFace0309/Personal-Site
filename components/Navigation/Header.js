@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from './Header.module.css'
 
 import Toolbar from './Toolbar/Toolbar'
+import SideDrawer from './SideDrawer/SideDrawer'
 
 const Header = () => {
   const [showSideDrawer, setShowSideDrawer] = useState(false)
@@ -11,23 +12,26 @@ const Header = () => {
     setShowSideDrawer(false)
   }
 
+  const sideDrawerOpenHandler = () => {
+    setShowSideDrawer(true)
+  }
+
   const sideDrawerToggleHandler = () => {
-    // this.setState(
-    //   (prevState) => ({ showSideDrawer: !prevState.showSideDrawer }),
-    //   // function is asyncronous so needs prevState argument to avoid bugs
-    // )
     setShowSideDrawer(!showSideDrawer)
   }
 
   return (
     <div className={styles.header}>
       <div className={styles.banner}>
-        <Toolbar toggle={sideDrawerToggleHandler} />
-        {/* <SideDrawer
-          open={showSideDrawer}
+        <Toolbar
+          toggle={sideDrawerToggleHandler}
           closed={sideDrawerClosedHandler}
-          isAuth={props.isAuth}
-        /> */}
+        />
+        <SideDrawer
+          open={showSideDrawer}
+          opened={sideDrawerOpenHandler}
+          closed={sideDrawerClosedHandler}
+        />
         <div className={styles.laptop}>
           <Image
             src="/images/laptop.svg"

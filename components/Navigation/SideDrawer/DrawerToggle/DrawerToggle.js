@@ -4,7 +4,7 @@ import styles from './DrawerToggle.module.css'
 
 function DrawerToggle(props) {
   return (
-    <div className={styles.DrawerToggle} onClick={props.clicked}>
+    <div className={styles.DrawerToggle} onClick={() => props.clicked()}>
       <MenuIcon fontSize="large" />
     </div>
   )

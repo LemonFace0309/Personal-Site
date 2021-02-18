@@ -7,7 +7,7 @@ const Nav = (props) => {
     <header className={styles.header}>
       <DrawerToggle clicked={props.toggle} />
       <nav className={styles.navbar}>
-        <NavigationItems />
+        <NavigationItems closed={props.closed} />
       </nav>
     </header>
   )
