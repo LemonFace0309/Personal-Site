@@ -21,7 +21,7 @@ function About() {
           <h1>About</h1>
           <div className={styles.bio}>
             <h2 className={styles.greenText}>Name:</h2>
-            <h2>Charles Liu</h2>
+            <h2>Charles Liu</h2>  
             <h2 className={styles.greenText}>School:</h2>
             <h2>University of Waterloo</h2>
             <h2 className={styles.greenText}>Degree:</h2>

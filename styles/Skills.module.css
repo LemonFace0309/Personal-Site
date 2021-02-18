@@ -1,5 +1,6 @@
 .container {
   height: 100vh;
+  width: 1005;
   display: flex;
 }
 
@@ -25,6 +26,7 @@
 .graphs {
   flex: 1 1 0px;
   background: #CAD0E2;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
